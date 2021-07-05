@@ -45,3 +45,6 @@ a{
 .dream-big .half-width{
     padding-right: 5%;
 }
+.dream-big .link-btn{
+    background-image:linear-gradient(to right, #ffc500, #c21300); 
+}
