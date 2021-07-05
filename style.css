@@ -9,8 +9,9 @@ h1{
 .name-color{
     color: #bb1402b6;
 }
-section{
+.flexiable-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -47,4 +48,38 @@ a{
 }
 .dream-big .link-btn{
     background-image:linear-gradient(to right, #ffc500, #c21300); 
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.Experiences-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 8px;
+    border-left:7px solid;
+    border-image:linear-gradient( #ffc500, #c21300);
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+#baby-dev{
+    border-image:linear-gradient(to top, #000046, #1cb5e0);
+    border-image-slice: 1;
+}
+.Experiences-item h1{
+font-size: 45px;
+}
+.Experiences-item h3{
+ color:#c21300;
+}
+.Experiences-item p{
+    text-align: justify;
+}
+footer p{
+    text-align: center;
 }
